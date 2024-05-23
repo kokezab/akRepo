@@ -57,21 +57,22 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/ak.jpeg"
                   alt="logo"
                   width={140}
                   height={30}
-                  className="w-full dark:hidden"
+                  className="w-24 sm:w-24 md:w-28 lg:w-32 xl:w-36 dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/ak.jpeg"
                   alt="logo"
                   width={140}
                   height={30}
-                  className="hidden w-full dark:block"
+                  className="hidden w-24 sm:w-24 md:w-28 lg:w-32 xl:w-36 dark:block"
                 />
               </Link>
             </div>
+
             <div className="flex w-full items-center justify-between px-4">
               <div>
                 <button

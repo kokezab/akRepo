@@ -21,9 +21,9 @@ const Home: NextPage = () => {
             <div className="flex">
               <div className="ml-6 flex items-center space-x-4">
                 <a href="#" className="text-gray-900 hover:text-gray-700">Home</a>
-                <a href="#" className="text-gray-900 hover:text-gray-700">About</a>
-                <a href="#" className="text-gray-900 hover:text-gray-700">Projects</a>
-                <a href="#" className="text-gray-900 hover:text-gray-700">Contact</a>
+                <a href="about" className="text-gray-900 hover:text-gray-700">About</a>
+                {/*<a href="#" className="text-gray-900 hover:text-gray-700">Projects</a>*/}
+                <a href="contact" className="text-gray-900 hover:text-gray-700">Contact</a>
               </div>
             </div>
           </div>

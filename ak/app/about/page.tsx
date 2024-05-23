@@ -36,18 +36,18 @@ const About = () => {
         </p>
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="flex flex-col items-center bg-white p-4 shadow rounded-lg">
-            <img src="/team-member-1.jpg" alt="Team Member 1" className="w-32 h-32 rounded-full object-cover mb-4" />
+            <img src="/team-member-1.png" alt="Team Member 1" className="w-32 h-32 rounded-full object-cover mb-4" />
             <h3 className="text-xl font-bold text-gray-900">John Doe</h3>
             <p className="text-gray-700">Lead Architect</p>
           </div>
           <div className="flex flex-col items-center bg-white p-4 shadow rounded-lg">
-            <img src="/team-member-2.jpg" alt="Team Member 2" className="w-32 h-32 rounded-full object-cover mb-4" />
-            <h3 className="text-xl font-bold text-gray-900">Jane Smith</h3>
+            <img src="/team-member-2.png" alt="Team Member 2" className="w-32 h-32 rounded-full object-cover mb-4" />
+            <h3 className="text-xl font-bold text-gray-900">Ron Doe</h3>
             <p className="text-gray-700">Project Manager</p>
           </div>
           <div className="flex flex-col items-center bg-white p-4 shadow rounded-lg">
-            <img src="/team-member-3.jpg" alt="Team Member 3" className="w-32 h-32 rounded-full object-cover mb-4" />
-            <h3 className="text-xl font-bold text-gray-900">Alice Johnson</h3>
+            <img src="/team-member-3.png" alt="Team Member 3" className="w-32 h-32 rounded-full object-cover mb-4" />
+            <h3 className="text-xl font-bold text-gray-900">Alen Johnson</h3>
             <p className="text-gray-700">Interior Designer</p>
           </div>
         </div>

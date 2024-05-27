@@ -10,6 +10,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import { useTranslations } from "next-intl";
 
 export const metadata: Metadata = {
   title: "Free Next.js Template for Startup and SaaS",
@@ -18,9 +19,12 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const t = useTranslations("Home");
+
   return (
     <>
       <ScrollUp />
+      <h2>{t("title")}</h2>
       <Hero />
       <Features />
       <Video />

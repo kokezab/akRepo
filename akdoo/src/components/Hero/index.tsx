@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("Hero");
+
   return (
     <>
       <section
@@ -16,7 +19,7 @@ const Hero = () => {
                   AK d.o.o. Banja Luka</h1>
                 <p
                   className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Gradimo Vaše vizije
+                  {t('moto')}
                 </p>
               </div>
             </div>

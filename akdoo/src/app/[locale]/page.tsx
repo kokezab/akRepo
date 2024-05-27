@@ -19,12 +19,9 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const t = useTranslations("Home");
-
   return (
     <>
       <ScrollUp />
-      <h2>{t("title")}</h2>
       <Hero />
       <Features />
       <Video />
